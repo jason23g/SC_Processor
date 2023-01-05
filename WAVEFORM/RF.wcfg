@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/panos/vhdl/PROC_SC/RF_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="rf_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="53" />
+   <wvobject fp_name="/rf_tb/ard1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ard1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ard1[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/ard2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ard2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ard2[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/awr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/dout1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/dout2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/ard1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ard1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ard1[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/ard2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ard2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ard2[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/awr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/dout1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/dout2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wren</obj_property>
+      <obj_property name="ObjectShortName">wren</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/dec_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dec_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_out[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/we_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">we_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">we_out[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_5[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_6[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_7[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_8[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_9[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_10[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_11[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_12[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_13[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_14[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_15[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_16[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_17" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_17[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_18" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_18[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_19" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_19[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_20" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_20[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_21" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_21[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_22" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_22[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_23" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_23[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_24" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_24[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_25" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_25[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_26" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_26[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_27" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_27[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_28" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_28[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_29" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_29[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_30" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_30[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rf_tb/uut/q_out_31" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_out_31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q_out_31[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+</wave_config>
